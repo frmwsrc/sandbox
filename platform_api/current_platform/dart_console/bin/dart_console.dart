@@ -4,7 +4,11 @@ import 'package:platform/platform.dart';
 void main(List<String> arguments) {
   final isMac = const LocalPlatform().isMacOS;
   final hostname = const LocalPlatform().localHostname;
+  final isLinux = const LocalPlatform().isLinux;
+
 
   print('isMac: $isMac.');
   print('hostname: $hostname.');
+  print('isLinux: $isLinux.');
+  
 }
